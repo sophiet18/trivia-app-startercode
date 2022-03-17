@@ -1,4 +1,5 @@
-#lesson 3 
+# lesson 3 
+
 in short, this has been the most fun and yet frustrating day since starting this course. 
 
 On the one hand, I enjoyed very much the thrill of working on a project that would deliver an actual app but on the other hand, every time I ran the app I got a heart attack 😔
@@ -7,7 +8,8 @@ I had the audacity and patience to read through every error message, look up and
 
 someday I'll come back to this and sort it out 🌚
 
-#Fragments
+# Fragment
+
 each destination screen is built using FRAGMENT - a UI component 
 
 each activity can contain one or more fragments and they could be swapped for other fragments 
@@ -20,7 +22,7 @@ operates like view in layout BUT must create a subclass of fragment to actually 
 
 screens are stacked together and controlled by the fragment stack manager 
 
-ACTIVITY VS FRAGMENT 
+# ACTIVITY VS FRAGMENT 
 
 ACTIVITY
 • call setContentView in onCreate to tell android which activity to use the activity then inflates the layout and places it correctly within the activity's layout hierarchy
@@ -71,7 +73,7 @@ PopTo Inclusive
 • to control where and when the drawer menu appears when 
 • set inside onCreate() by calling it whenever the destination changes - when the id of our NavDestination matches the start destination of our graph, we’ll unlock the drawerLayout; otherwise, we’ll lock and close the drawerLayout.
 
-NAVIGATION METHODS & FUNCTIONALITY 
+# NAVIGATION METHODS & FUNCTIONALITY 
 
 📌 APP DRAWER NAVIGATION
 • defaults to poping everything off the backstack except for the start destination 
@@ -85,7 +87,8 @@ NAVIGATION METHODS & FUNCTIONALITY
 📌  NAVIGATION VIEW
 • material design container that provides the look, feel, and functionality of the navigation drawer 
 
-#Intent
+# Intent
+
 INTENTS - are descriptions that the system uses to locate activities on behalf of applications 
 
 📍EXPLICIT INTENT
